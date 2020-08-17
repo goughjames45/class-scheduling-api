@@ -1,0 +1,23 @@
+{
+  "name": "gradedistributionapi",
+  "version": "1.0.0",
+  "description": "api for making http requests to a mongoDB for grade distributions for classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "grade",
+    "api"
+  ],
+  "author": "James Gough",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
